@@ -182,7 +182,12 @@
                 delivery dos produtos. Com o mesmo cardápio variado de sempre,
                 sem perder nosso sabor e padrão de qualidade.
               </p>
-              <a href="#" class="btn botao-padrao w-100 fw-bold mt-3"
+              <a
+                href="#"
+                class="btn botao-padrao w-100 fw-bold mt-3"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#canvas-3"
+                aria-controls="offcanvasRight"
                 >Quero detalhes</a
               >
             </div>
@@ -299,6 +304,74 @@
       </div>
     </div>
 
+    <!-- Canva 3  -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="canvas-3"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Delivery</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button botao-padrao"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne"
+              >
+                Encomendas para eventos
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseOne"
+              class="accordion-collapse collapse show"
+            >
+              <div class="accordion-body">
+                Produzimos e entregamos os itens de café de nosso cardápio em
+                grandes quantidades para seus eventos! Basta entrar em contato e
+                fazer a reserva com 72h de antecedência.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button botao-padrao collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo"
+              >
+                Entrega por aplicativo
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseTwo"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                Entregamos pelos aplicativos Ifood e Rappi. Consulte nosso
+                cardápio por lá e faça seu pedido!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Canva 2  -->
     <div
       class="offcanvas offcanvas-end"
