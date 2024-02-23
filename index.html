@@ -207,6 +207,95 @@
         </div>
       </section>
 
+      <section class="py-5">
+        <h2 class="fw-bold text-center pb-1">Nossos Produtos</h2>
+
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="card border-0 btn mx-auto"
+              style="width: 18rem"
+              data-bs-toggle="modal"
+              data-bs-target="#modal-1"
+            >
+              <img
+                src="./assets/produtos-cafe-tradicional.png"
+                class="card-img-top"
+                alt="Xícara de café preto"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-text fw-bold">Cafés Tradicionais</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="card border-0 btn mx-auto"
+              style="width: 18rem"
+              data-bs-toggle="modal"
+              data-bs-target="#modal-2"
+            >
+              <img
+                src="./assets/produtos-cafe-especial.png"
+                class="card-img-top"
+                alt="Xícara de café preto especial"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-text fw-bold">Cafés Especiais</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-0 btn mx-auto" style="width: 18rem">
+              <img
+                src="./assets/produtos-vitaminas.png"
+                class="card-img-top"
+                alt="Smoothies e Vitaminas"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-text fw-bold">Smoothies e Vitaminas</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-0 btn mx-auto" style="width: 18rem">
+              <img
+                src="./assets/produtos-paes.png"
+                class="card-img-top"
+                alt="Cesta de pães"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-text fw-bold">Pães e Focaccias</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-0 btn mx-auto" style="width: 18rem">
+              <img
+                src="./assets/produtos-doces.png"
+                class="card-img-top"
+                alt="Xícara de café preto"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-text fw-bold">Doces</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-0 btn mx-auto" style="width: 18rem">
+              <img
+                src="./assets/produtos-salgados.png"
+                class="card-img-top"
+                alt="Xícara de café preto"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-text fw-bold">Salgados</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="banners banner-3"></section>
     </main>
 
@@ -304,6 +393,74 @@
       </div>
     </div>
 
+    <!-- Canva 2  -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="canvas-2"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Buffet</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button botao-padrao"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne"
+              >
+                Eventos
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseOne"
+              class="accordion-collapse collapse show"
+            >
+              <div class="accordion-body">
+                Organizamos buffet com cardápios variados e personalizados para
+                casamentos, festas de aniversário e outros eventos!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button botao-padrao collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo"
+              >
+                Catering
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseTwo"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                Oferecemos serviço de alimentação variada para coffee breaks,
+                produções e bastidores.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Canva 3  -->
     <div
       class="offcanvas offcanvas-end"
@@ -372,69 +529,122 @@
         </div>
       </div>
     </div>
-    <!-- Canva 2  -->
+
+    <!-- Modais  -->
+
+    <!-- Modal 1  -->
+
     <div
-      class="offcanvas offcanvas-end"
+      class="modal fade"
+      id="modal-1"
       tabindex="-1"
-      id="canvas-2"
-      aria-labelledby="offcanvasRightLabel"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
     >
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasRightLabel">Buffet</h5>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        ></button>
-      </div>
-      <div class="offcanvas-body">
-        <div class="accordion" id="accordionPanelsStayOpenExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button botao-padrao"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseOne"
-                aria-expanded="true"
-                aria-controls="panelsStayOpen-collapseOne"
-              >
-                Eventos
-              </button>
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
+              Cafés Tradicionais
             </h2>
-            <div
-              id="panelsStayOpen-collapseOne"
-              class="accordion-collapse collapse show"
-            >
-              <div class="accordion-body">
-                Organizamos buffet com cardápios variados e personalizados para
-                casamentos, festas de aniversário e outros eventos!
-              </div>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="./assets/produtos-cafe-tradicional.png"
+              alt="Xícara de café preto"
+              class="w-100"
+            />
+            <div>
+              <p>
+                O café Serenatto é conhecido por seus blends tradicionais e
+                saborosos, que agradam aos amantes da bebida. Nossos grãos são
+                cuidadosamente selecionados e torrados para produzir um aroma
+                rico e sabor equilibrado.
+              </p>
+              <p>
+                Entre os cafés mais tradicionais da casa, destaca-se o "Café
+                Serenatto", um blend exclusivo de grãos com notas de chocolate e
+                caramelo. Outra opção popular é o "Café Italiano", um café
+                expresso encorpado e intenso. Já o "Café Cappuccino" é uma
+                escolha clássica para quem prefere uma bebida cremosa e suave.
+              </p>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button botao-padrao collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseTwo"
-                aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseTwo"
-              >
-                Catering
-              </button>
-            </h2>
-            <div
-              id="panelsStayOpen-collapseTwo"
-              class="accordion-collapse collapse"
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary mx-auto botao-padrao border-0"
+              data-bs-dismiss="modal"
             >
-              <div class="accordion-body">
-                Oferecemos serviço de alimentação variada para coffee breaks,
-                produções e bastidores.
-              </div>
+              Fechar janela
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+
+    <div
+      class="modal fade"
+      id="modal-2"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
+              Cafés Especiais
+            </h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="./assets/produtos-cafe-especial.png"
+              alt="Xícara de café especial"
+              class="w-100"
+            />
+            <div>
+              <p>
+                Somos conhecidos também por nossos cafés especiais, que são
+                cuidadosamente preparados com grãos selecionados de alta
+                qualidade e técnicas de preparo precisas.
+              </p>
+              <p>
+                Entre as opções de cafés especiais do Café & Bistrô Serenatto,
+                destacamos o café aeropress, que é preparado com uma técnica de
+                imersão e pressão, resultando em uma bebida de sabor intenso e
+                aroma acentuado. Outra opção popular é o café Hario V60, que é
+                preparado com um filtro de papel em formato de cone e resulta em
+                uma bebida limpa e suave, ressaltando as notas sensoriais dos
+                grãos. Além disso, oferecemos uma variedade de bebidas geladas,
+                como o café gelado, que é preparado com grãos torrados escuros e
+                servido com gelo e leite, resultando em uma bebida refrescante e
+                saborosa.
+              </p>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary mx-auto botao-padrao border-0"
+              data-bs-dismiss="modal"
+            >
+              Fechar janela
+            </button>
           </div>
         </div>
       </div>
